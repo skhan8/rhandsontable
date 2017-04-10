@@ -399,9 +399,9 @@ The width of the row header column can be customized using `rowHeaderWidth`.
 rhandsontable(mtcars, rowHeaderWidth = 200)
 ```
 
-### Streching
+### Stretching
 
-The table can be streched to the full width by using `stretchH`.
+The table can be stretched to the full width by using `stretchH`.
 
 ```{r fig.height = 6, fig.width = 6}
 MAT = matrix(rnorm(30), nrow = 10, dimnames = list(LETTERS[1:10],
